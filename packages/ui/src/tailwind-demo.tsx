@@ -1,3 +1,5 @@
+import type { ReactElement } from 'react'
+
 type TailwindDemoProps = {
   appName: string
 }
@@ -8,7 +10,7 @@ const features = [
   'Rendered from @repo/ui',
 ]
 
-export function TailwindDemo({ appName }: TailwindDemoProps) {
+export function TailwindDemo({ appName }: TailwindDemoProps): ReactElement {
   return (
     <section className="w-full max-w-4xl rounded-card border border-white/10 bg-[linear-gradient(135deg,rgba(79,124,255,0.16),rgba(255,255,255,0.04))] p-6 shadow-card backdrop-blur md:p-8">
       <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">

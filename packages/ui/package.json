@@ -4,6 +4,14 @@
   "private": true,
   "exports": {
     "./theme.css": "./src/theme.css",
+    "./utils": "./src/utils.ts",
+    "./button": "./src/button.tsx",
+    "./card": "./src/card.tsx",
+    "./input": "./src/input.tsx",
+    "./label": "./src/label.tsx",
+    "./separator": "./src/separator.tsx",
+    "./shadcn-showcase": "./src/shadcn-showcase.tsx",
+    "./tailwind-demo": "./src/tailwind-demo.tsx",
     "./*": "./src/*.tsx"
   },
   "scripts": {
